@@ -82,7 +82,7 @@ class TravelContext:
 
     def execute_strategy(self):
         if self.strategy:
-            self.strategy.travel_to_airport()
+            self.strategy.travel_to_airport() # exe method def travel_to_airport(self) của đối tượng hiện tại (`self.strategy` được truyền vào ).
         else:
             print("No strategy set.")
 ```
